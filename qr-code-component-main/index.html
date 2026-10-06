@@ -18,7 +18,7 @@
 <section class="qr-section">
 <div class="qr-card"> 
   <div class="img-div">
-  <img src="/qr-code-component-main/images/image-qr-code.png">
+  <img src="./images/image-qr-code.png">
   </div>
   <div class="text-div">
     <h1>Improve your front-end skills by building projects</h1>
@@ -35,10 +35,67 @@
 </body>
 </html>
 <style>
+  body{
+    background-color: #D5E1EF;
+  }
   .qr-section{
-  background-color: #D5E1EF;
+  
   display: flex;
   justify-content: center;
   align-items: center;
+  }
+  .qr-card{
+max-width:288px;
+background-color: white;
+border-radius:10px;
+padding:16px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 24px;
+flex-direction: column;
+  }
+  .img-div img{
+width: 100%;
+object-fit: cover;
+border-radius:10px;
+  }
+  h1{
+    /* Improve your front-e */
+
+
+/* text-preset-1 */
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+text-align: center;
+
+color: #1F314F;
+
+
+/* Inside auto layout */
+
+
+  }
+  p{
+    margin-top: 16px;
+    /* Scan the QR code to */
+/* text-preset-2 */
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 140%;
+/* or 21px */
+text-align: center;
+letter-spacing: 0.2px;
+
+color: #68778D;
+
+
+
   }
   </style>
